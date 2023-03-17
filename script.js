@@ -155,7 +155,7 @@ async function getNews(){
 	console.log(dataJson);
 
 	let common=dataJson?.articles;
-	let totalarticles=common.length;
+	let totalarticles=dataJson?.articles.length;
 	const dFrag=document.createDocumentFragment();
 
 	for(let i=10;i<totalarticles;i++){
