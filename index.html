@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Roboto:wght@100;400&family=Shantell+Sans:wght@300&family=Tilt+Neon&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+
+    <div class="wrapper">
+        
+        <div class="container">
+
+            <div class="top">
+
+
+                <video autoplay loop muted id="bg-video">
+                    <source src="./assets/images/herobg2.webm" type="video/webm" />
+                    Your browser does not support the video tag.
+                </video>
+                <!-- navigation -->
+
+                <nav id="navigation" class="navbar">
+                    <img src="./assets/images/cryptologo.PNG" alt="" class="my-logo">
+                    <a href="#">Home</a>
+                    <a href="#coins-details">Crypto Top 100</a>
+                    <a href="#coin-search">Crypto Search</a>
+                    <a href="#coin-news">Crypto News</a>
+                </nav>
+
+                <!-- hero section -->
+                <section id="Home">
+                    <div class="hero">
+                        
+                        <h1>navigating the world of cryptocurrency</h1>
+                        <p>Welcome to our crypto website, your ultimate destination for all things related to cryptocurrency. Our website features a comprehensive list of the top 100 cryptocurrencies, providing you with real-time prices, market capitalization, and trading volumes.</p>
+                        <p>Stay up-to-date with the latest developments in the crypto world with our daily news updates, covering everything from regulatory changes to new projects and partnerships. Our website also features a powerful crypto search tool, enabling you to find the information you need quickly and easily.</p>
+                    </div>
+                </section>
+            </div>
+
+
+            <!-- coin list section -->
+            <section id="coins-details">
+                <video autoplay loop muted id="bg-video1">
+                    <source src="./assets/images/herobg2.webm" type="video/webm" />
+                    Your browser does not support the video tag.
+                </video>
+                <h1>Coin Vault's Top 100</h1>
+
+                <header>
+                    <table id="table">
+                        <tr class="table-head">
+                            <th>Rank</th>
+                            <th>Coin Name</th>
+                            <th>Price</th>
+                            <th>Market Cap</th>
+                            <th>24h</th>
+                            <th>24volume</th>
+
+                        </tr>
+                    </table>
+                </header>
+                <div class="coin-list" coin-list>
+                    
+                </div>
+            </section>
+        
+            <!-- coin search by name -->
+
+            <section id="coin-search">
+                <video autoplay loop muted id="bg-video1">
+                    <source src="./assets/images/herobg2.webm" type="video/webm" />
+                    Your browser does not support the video tag.
+                </video>
+                <h1 class="search-head">Coin Vualt's Search Coin</h1>
+                <div class="search-container">
+                    <input type="text" placeholder="enter coin-name to search" search-input>
+                    <button search-btn>Search</button>
+                    <button  class="clear-search" search-btn>Clear Search</button>
+                </div>
+                <header>
+                    <table id="table">
+                        <tr class="table-head2">
+                            <th class="heading">Name</th>
+                            <th class="heading">Price</th>
+                            <th class="heading">Symbol</th>
+                            
+
+                        </tr>
+                    </table>
+                </header>
+                <div class="coin-search-list">
+                    <!-- <div class="card">
+                        <img src="" alt="">
+
+                    </div> -->
+                </div>
+            </section>
+
+
+
+            <!-- coin news  -->
+
+            <section id="coin-news">
+                <video autoplay loop muted id="bg-video1">
+                    <source src="./assets/images/herobg2.webm" type="video/webm" />
+                    Your browser does not support the video tag.
+                </video>
+               
+                <div class="form">
+                    <input type="text" newsbycoinname id="newsearchinput" placeholder="Search Articles By Coin Name">
+                    <button search-news class="news-searchbtn">Search articles by coin name</button>
+                </div>
+
+                <div class="news-container">
+
+                </div>
+
+                <!-- <button load-more>Load More</button> -->
+            </section>
+
+
+            <!-- my footer -->
+            <footer class="footer">
+                <hr>
+                <video autoplay loop muted id="bg-video1">
+                    <source src="./assets/images/herobg2.webm" type="video/webm" />
+                    Your browser does not support the video tag.
+                </video>
+
+                <h1>Coin vault</h1>
+                <h2>About Us</h2>
+                <span>&#169; copyright 2023</span>
+            </footer>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
